@@ -1,0 +1,31 @@
+.user-details-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f5fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .user-details-container p {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .user-details-container a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4f81c7;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .user-details-container a:hover {
+    color: #336699;
+  }
+  

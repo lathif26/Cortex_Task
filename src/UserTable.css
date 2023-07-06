@@ -1,0 +1,79 @@
+.table-container {
+    width: 100%;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table-container tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .table-container a {
+    margin-right: 8px;
+  }
+  
+  .table-container button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  
+.view-button {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .view-button-form{
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+ 
+  
+  .table-container button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .table-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  .view-button-form_ctn{
+    width:100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
